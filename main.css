@@ -201,3 +201,39 @@ transition: .2s
 #left{
     text-align: left;
 }
+
+.inputBox{
+    background-color:#212121;
+    color: white;
+    border: solid 1px rgb(77, 77, 77);
+    text-indent: 10px;
+}
+
+#emailBox{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+
+#messageBox{
+    height: 10em;
+    width: 30em;
+    border-radius: 5px;
+    margin-top: .5em;
+    margin-bottom: .8em;
+}
+
+.emailButton{
+    width: 6em;
+    height: 2.4em;
+    font-size: 1.2em;
+    color: #00ffbb;
+    border: 2px solid #00ffbb;
+}
+
+.emailButton:hover{
+    background-color: #00ffbb;
+    color: black;
+}

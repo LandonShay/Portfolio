@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-  
+
   <title>Landon Shay Portfolio</title>
 </head>
 
@@ -55,10 +55,8 @@
           </li>
         </ul>
         <ul>
-          <li><a href="assets/resume.pdf"
-            target="assets/resume.pdf" type="button"
-            class="btn resume">Resume
-          </a></li>
+          <li><a href="assets/resume.pdf" target="assets/resume.pdf" type="button" class="btn resume">Resume
+            </a></li>
         </ul>
       </div>
     </div>
@@ -81,8 +79,8 @@
               </a>
             </div>
             <div class="flex icon">
-              <a href="mailto:landonshay@gmail.com" target="mailto:landonshay@gmail.com">
-                <img src="assets/gmail.png">
+              <a href="https://github.com/LandonShay" target="https://github.com/LandonShay">
+                <img src="assets/git.png">
               </a>
             </div>
           </div>
@@ -91,11 +89,14 @@
           <h4>About Me <span class="line"></span></h4>
           <br />
           <p>My name is Landon Shay. I'm a full-stack developer in Indianapolis, IN. Despite finding high levels of
-            success in the healthcare field, I found a passion in programming and honed my skills in both front and back end
-            development. With a background in the healthcare field, my specialties lie in effective communication, highly detail
-            oriented work, and meeting deadlines. 
+            success in the healthcare field, I found a passion in programming and honed my skills in both front and back
+            end
+            development. With a background in the healthcare field, my specialties lie in effective communication,
+            highly detail
+            oriented work, and meeting deadlines.
             <br>
-            I've been messing with computers for years, from building my own, to making my own small games for fun. Here's some
+            I've been messing with computers for years, from building my own, to making my own small games for fun.
+            Here's some
             of the technologies I'm familiar with:
           </p>
           <ul>
@@ -183,19 +184,28 @@
   <!--My Projects End-->
   <!--Contacts Start-->
   <div id="scroll3"></div>
-  <section class="p-5 text-light text-center">
+  <section class="p-5 text-light text-center flex">
     <h1 class="name">Contacts</h1>
     <br>
     <div class="container-lg">
-      <h2>Want to get in touch? The best way is by emailing me directly.</h2>
+      <h2>Want to get in touch? Send a message here.</h2>
       <br>
-        <div>
-          <a href="mailto:landonshay@gmail.com"
-            target="mailto:landonshay@gmail.com" type="button"
-            class="btn" style="background-color: #00ffbb">Send me an email
-          </a>
-        </div>
+      <div>
+        <form action="https://formspree.io/f/xknybbny" target="https://formspree.io/f/xknybbny" method="POST">
+          <label class="col-12">
+            Email
+            <br>
+            <input type="email" name="email" class="inputBox" id="emailBox" placeholder="Enter your email here">
+          </label>
+          <label class="col-12">
+            Message
+            <br>
+            <textarea name="message" class="inputBox" id="messageBox" placeholder="Enter your message here"></textarea>
+          </label>
+          <button class="btn emailButton" type="submit">Send</button>
+        </form>
       </div>
+    </div>
     </div>
   </section>
 
